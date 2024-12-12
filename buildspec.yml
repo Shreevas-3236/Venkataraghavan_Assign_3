@@ -4,9 +4,9 @@ phases:
     commands:
       - echo Logging in to Amazon ECR....
       - aws --version
-      - aws ecr get-login-password --region ca-central-1 | docker login --username AWS --password-stdin 381492193842.dkr.ecr.ca-central-1.amazonaws.com
+      - aws ecr get-login-password --region ca-central-1 | docker login --username AWS --password-stdin 891377381991.dkr.ecr.ca-central-1.amazonaws.com
       - # Replace with this to your repository URI
-      - REPOSITORY_URI=381492193842.dkr.ecr.ca-central-1.amazonaws.com/gupte-assign3-user
+      - REPOSITORY_URI=891377381991.dkr.ecr.ca-central-1.amazonaws.com/venkataraghavan-assign-3
       - IMAGE_TAG=latest
   build:
     commands:
